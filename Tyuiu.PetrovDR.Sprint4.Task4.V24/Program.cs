@@ -50,7 +50,7 @@ namespace Tyuiu.PetrovDR.Sprint4.Task4.V24
                 for (int j = 0; j < columns; j++)
                 {
                     Console.Write($"Введите {i}, {j} элемент массива: ");
-                    matrix[i,j] = Convert.ToInt32(Console.ReadLine());
+                    matrix[i, j] = Convert.ToInt32(Console.ReadLine());
                 }
             }
 
@@ -60,7 +60,7 @@ namespace Tyuiu.PetrovDR.Sprint4.Task4.V24
                 for (int j = 0; j < columns; j++)
                 {
                     Console.Write($"{matrix[i, j]} \t");
-                }    
+                }
                 Console.WriteLine();
             }
 

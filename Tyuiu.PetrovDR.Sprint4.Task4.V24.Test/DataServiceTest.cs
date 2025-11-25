@@ -10,7 +10,7 @@ namespace Tyuiu.PetrovDR.Sprint4.Task4.V24.Test
         {
             DataService ds = new DataService();
 
-            int[,] matrix = new int[5,5] {
+            int[,] matrix = new int[5, 5] {
                 { 7, 9, 7, 6, 7 },
                 { 9, 9, 8, 6, 7 },
                 { 8, 6, 5, 6, 7 },
